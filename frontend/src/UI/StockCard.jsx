@@ -1,5 +1,3 @@
-import React from 'react'
-
 const StockCard = ({ name, stock, category, image }) => {
   return (
     <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center gap-4 bg-white shadow-md hover:shadow-lg p-4 sm:p-6 rounded-lg transition-shadow duration-300 border border-gray-100'>

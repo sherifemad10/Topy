@@ -1,4 +1,3 @@
-import React from 'react'
 import { ArrowRightIcon } from "@animateicons/react/lucide";
 import Card from '../../UI/Card'
 import useFetch from '../../Hooks/useFetch'

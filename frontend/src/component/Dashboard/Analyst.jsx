@@ -1,4 +1,3 @@
-import React from 'react'
 import { ShoppingBasketIcon } from "@animateicons/react/lucide";
 import { ArrowRightIcon } from "@animateicons/react/lucide";
 import { BatteryLowIcon } from "@animateicons/react/lucide";

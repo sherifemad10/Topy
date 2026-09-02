@@ -1,6 +1,5 @@
-import React from 'react'
 import StockCard from '../../UI/StockCard'
-import Loading from '../../Pages/loading'
+import Loading from '../../Pages/Loading'
 import useFetch from '../../Hooks/useFetch'
 import { ArrowRightIcon } from "@animateicons/react/lucide";
 

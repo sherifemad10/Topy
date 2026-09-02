@@ -1,5 +1,4 @@
 
-import React from "react";
 import Logo from "../assets/logo.ico";
 
 import {
@@ -9,7 +8,7 @@ import {
   SettingsIcon,
   LogOutIcon,
 } from "@animateicons/react/lucide";
-import { Link, NavLink } from "react-router";
+import { NavLink } from "react-router";
 
 const navItems = [
   {

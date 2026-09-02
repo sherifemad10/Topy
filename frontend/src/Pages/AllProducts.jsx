@@ -3,7 +3,7 @@ import Searchbar from '../component/Dashboard/Searchbar'
 import useFetch from '../Hooks/useFetch'
 import Category from '../component/AllProduct/Category'
 import Prodect from '../component/AllProduct/Prodect'
-import Loading from './loading'
+import Loading from './Loading'
 
 const AllProdects = () => {
   const { product, loading, error, refetch } = useFetch()

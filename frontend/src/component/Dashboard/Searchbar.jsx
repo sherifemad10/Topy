@@ -1,4 +1,3 @@
-import React from 'react'
 import useSearch from '../../Hooks/useSearch';
 
 const Searchbar = ({ title }) => {

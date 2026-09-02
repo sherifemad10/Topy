@@ -1,9 +1,7 @@
-import React from 'react'
 import Searchbar from '../component/Dashboard/Searchbar'
 import Analyst from '../component/Dashboard/Analyst'
 import LatestProducts from '../component/Dashboard/LatestProducts'
 import OutStock from '../component/Dashboard/OutStock'
-import Navbar from '../component/Navbar'
 
 
 const Dashboard = () => {

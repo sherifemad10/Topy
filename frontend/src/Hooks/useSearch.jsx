@@ -15,7 +15,7 @@ const useSearch = () => {
     return product.filter((product) =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
-  }, [searchTerm]);
+  }, [product, searchTerm]);
 
   return { searchTerm, handleSearch, filteredProducts };
 
