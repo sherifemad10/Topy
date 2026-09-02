@@ -10,7 +10,7 @@ function useFetch() {
   useEffect(() => {
     const getProduct = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/products")
+        const response = await axios.get("/api/products")
         console.log(response.data.data)
         setProduct(response.data.data)
       } catch (error) {
