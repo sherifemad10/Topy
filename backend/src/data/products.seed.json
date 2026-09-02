@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 349,
+    "stock": 42,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://picsum.photos/seed/mouse/400/300",
+    "createdAt": "2026-01-05T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 1299,
+    "stock": 18,
+    "description": "Hot-swappable mechanical keyboard with RGB backlight.",
+    "image": "https://picsum.photos/seed/keyboard/400/300",
+    "createdAt": "2026-01-06T10:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "27-inch Monitor",
+    "category": "Displays",
+    "price": 5499,
+    "stock": 9,
+    "description": "27-inch QHD monitor, 144Hz refresh rate.",
+    "image": "https://picsum.photos/seed/monitor/400/300",
+    "createdAt": "2026-01-07T10:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "price": 599,
+    "stock": 61,
+    "description": "7-in-1 USB-C hub with HDMI and card reader.",
+    "image": "https://picsum.photos/seed/hub/400/300",
+    "createdAt": "2026-01-08T10:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Laptop Stand",
+    "category": "Office",
+    "price": 429,
+    "stock": 35,
+    "description": "Adjustable aluminum laptop stand.",
+    "image": "https://picsum.photos/seed/laptopstand/400/300",
+    "createdAt": "2026-01-09T10:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "name": "Desk Lamp",
+    "category": "Office",
+    "price": 349,
+    "stock": 27,
+    "description": "LED desk lamp with adjustable brightness and color temperature.",
+    "image": "https://picsum.photos/seed/lamp/400/300",
+    "createdAt": "2026-01-10T10:00:00.000Z"
+  }
+]

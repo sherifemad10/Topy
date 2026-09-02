@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f7f8fb;
+}
+
+@theme { --animate-face-eyes: face-eyes 1s 0.3s forwards; --animate-eye-lid: eye-lid 4s 1.3s infinite; --animate-pupil: pupil 4s 1.3s infinite; --animate-mouth-left: mouth-left 1s 0.3s forwards; --animate-mouth-right: mouth-right 1s 0.3s forwards; --animate-nose: nose 1s 0.3s forwards; @keyframes face-eyes { from { transform: translateY(112.5px); } to { transform: translateY(15px); } } @keyframes eye-lid { 0%, 40%, 45%, 100% { transform: translateY(0); } 42.5% { transform: translateY(17.5px); } } @keyframes pupil { 0%, 37.5%, 40%, 45%, 87.5%, 100% { stroke-dashoffset: 0; transform: translate(0, 0); } 12.5%, 25%, 62.5%, 75% { transform: translate(-35px, 0); } 42.5% { stroke-dashoffset: 35; transform: translate(0, 17.5px); } } @keyframes mouth-left { from, 50% { stroke-dashoffset: -102; } to { stroke-dashoffset: 0; } } @keyframes mouth-right { from, 50% { stroke-dashoffset: 102; } to { stroke-dashoffset: 0; } } @keyframes nose { from { transform: translate(0, 0); } to { transform: translate(0, 22.5px); } } }
