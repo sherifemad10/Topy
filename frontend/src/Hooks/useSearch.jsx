@@ -3,7 +3,7 @@ import useFetch from './useFetch';
 
 const useSearch = () => {
       const { product  } = useFetch()
-  const [searchTerm, setSearchTerm] = React.useState([]);
+  const [searchTerm, setSearchTerm] = React.useState('');
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
