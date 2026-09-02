@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowRightIcon } from "@animateicons/react/lucide";
 import Card from '../../UI/Card'
 import useFetch from '../../Hooks/useFetch'
-import Loading from '../../Pages/loading';
+import Loading from '../../Pages/Loading';
 
 
 const LatestProducts = ({title, from, to}) => {
